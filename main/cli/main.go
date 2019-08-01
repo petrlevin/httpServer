@@ -1,12 +1,13 @@
-package cli
+package main
 
 import (
-	"cli/cmd"
+
 	"fmt"
+     "simpleServer/cli"
 )
 
 func main(){
 	fmt.Println("main start")
+	cli.Execute()
 
-	cmd.Execute();
 }
